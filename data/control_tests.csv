@@ -1,0 +1,9 @@
+test_id,control_id,test_period,test_procedure,evidence_reviewed,sample_size,exceptions_found,result,tester
+T001,C001,Q3 2026,Verify quarterly privileged access review completion,Access certification report,25,2,Fail,IT Auditor
+T002,C002,Q3 2026,Compare termination records with access revocation timestamps,Termination and IAM ticket records,25,0,Pass,IT Auditor
+T003,C003,Q3 2026,Verify audit evidence completeness against control requirements,Control evidence checklist,10,1,Fail,IT Auditor
+T004,C004,Q3 2026,Check critical vulnerability remediation against approved timelines,Vulnerability scan and remediation tickets,20,3,Fail,IT Auditor
+T005,C005,Q3 2026,Verify completion of supplier security assessments,Third-party assessment records,10,0,Pass,IT Auditor
+T006,C006,Q3 2026,Inspect evidence of backup restoration testing,Backup restoration test reports,4,1,Fail,IT Auditor
+T007,C007,Q3 2026,Verify retention reviews and disposal records,Data retention review records,10,0,Pass,IT Auditor
+T008,C008,Q3 2026,Inspect production change approval evidence,Change tickets and approval records,25,0,Pass,IT Auditor

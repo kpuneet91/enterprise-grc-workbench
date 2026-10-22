@@ -1,0 +1,9 @@
+risk_id,risk_title,category,description,likelihood,impact,risk_owner,treatment,status
+R001,Excessive privileged access,Identity and Access Management,Privileged accounts may retain unnecessary permissions,4,5,IT Security Manager,Mitigate,Open
+R002,Delayed access revocation,Identity and Access Management,Departed employees may retain access to business systems,3,5,IAM Manager,Mitigate,Open
+R003,Incomplete audit evidence,Compliance and Audit,Required control evidence may be missing or incomplete,3,4,IT Audit Manager,Mitigate,In Progress
+R004,Unpatched critical vulnerability,Technology Security,Critical vulnerabilities may remain unpatched beyond target timelines,4,5,Infrastructure Manager,Mitigate,Open
+R005,Third-party security weakness,Third-Party Risk,A supplier may not meet required security controls,3,4,Vendor Risk Manager,Mitigate,In Progress
+R006,Insufficient backup testing,Business Continuity,Backups may fail to restore critical business services,2,5,IT Operations Manager,Mitigate,Open
+R007,Excessive data retention,Data Protection,Sensitive data may be retained beyond approved periods,3,3,Data Protection Officer,Mitigate,Open
+R008,Weak change approval evidence,Change Management,Production changes may lack documented approval,3,4,Application Owner,Mitigate,In Progress

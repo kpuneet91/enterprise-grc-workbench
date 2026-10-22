@@ -1,0 +1,9 @@
+control_id,control_name,control_domain,control_type,frequency,control_owner,linked_risk_id,control_description
+C001,Privileged Access Review,IAM,Detective,Quarterly,IAM Manager,R001,Review privileged user access and remove inappropriate permissions
+C002,Timely User Deprovisioning,IAM,Preventive,Event Driven,IAM Manager,R002,Revoke user access following approved termination events
+C003,Audit Evidence Quality Review,Compliance,Detective,Quarterly,IT Audit Manager,R003,Verify evidence completeness and accuracy before audit submission
+C004,Critical Vulnerability Remediation,Technology Security,Corrective,Monthly,Infrastructure Manager,R004,Track and remediate critical vulnerabilities against approved deadlines
+C005,Third Party Security Assessment,Third Party Risk,Detective,Annually,Vendor Risk Manager,R005,Assess supplier security posture and track remediation gaps
+C006,Backup Restoration Testing,Business Continuity,Detective,Quarterly,IT Operations Manager,R006,Perform restoration tests and document recovery results
+C007,Data Retention Review,Data Protection,Detective,Annually,Data Protection Officer,R007,Review data retention periods and identify overdue disposal
+C008,Production Change Approval,Change Management,Preventive,Per Change,Change Manager,R008,Verify documented approval before implementing production changes

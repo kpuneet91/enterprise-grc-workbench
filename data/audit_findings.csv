@@ -1,0 +1,6 @@
+finding_id,title,linked_control_id,severity,root_cause,remediation_action,owner,identified_date,target_date,status
+F001,Excessive privileged access,C001,High,Periodic access review identified inappropriate permissions,Remove unnecessary privileges and validate access against approved roles,IAM Manager,2026-10-01,2026-11-15,Open
+F002,Incomplete audit evidence,C003,Medium,Evidence checklist was not completed before submission,Introduce a mandatory evidence quality review before audit submission,IT Audit Manager,2026-10-05,2026-11-20,In Progress
+F003,Critical vulnerability remediation delay,C004,Critical,Remediation ownership and escalation timelines were unclear,Assign remediation owners and implement overdue vulnerability escalation,Infrastructure Manager,2026-10-08,2026-10-30,In Progress
+F004,Backup restoration test exception,C006,High,Restoration testing did not meet the documented recovery requirement,Repeat restoration testing and retain evidence of successful recovery,IT Operations Manager,2026-10-10,2026-11-10,Open
+F005,Production change approval evidence gap,C008,Medium,Approval evidence was not consistently attached to change records,Enforce approval evidence checks before production deployment,Change Manager,2026-10-12,2026-11-25,Closed
