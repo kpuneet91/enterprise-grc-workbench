@@ -34,16 +34,24 @@ total_risks = len(risks)
 critical_risks = int((risks["risk_level"] == "Critical").sum())
 high_risks = int((risks["risk_level"] == "High").sum())
 total_controls = len(controls)
-failed_tests = int((tests["result"].str.strip().str.lower() == "fail").sum())
+
+test_results = tests["result"].str.strip().str.lower()
+failed_tests = int((test_results == "fail").sum())
+passed_tests = int((test_results == "pass").sum())
+total_tests = passed_tests + failed_tests
+pass_rate = (passed_tests / total_tests * 100) if total_tests else 0
 
 st.subheader("Executive Summary")
+st.caption("A consolidated view of enterprise risk exposure and control assurance.")
 
 col1, col2, col3, col4, col5 = st.columns(5)
+
 col1.metric("Total Risks", total_risks)
 col2.metric("Critical Risks", critical_risks)
 col3.metric("High Risks", high_risks)
 col4.metric("Controls in Library", total_controls)
-col5.metric("Failed Control Tests", failed_tests)
+col5.metric("Control Pass Rate", f"{pass_rate:.1f}%")
+
 
 st.divider()
 
