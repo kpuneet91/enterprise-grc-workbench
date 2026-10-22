@@ -14,6 +14,11 @@ A Python-based Governance, Risk and Compliance (GRC) portfolio project demonstra
 - Track audit findings, remediation owners, actions, target dates, and status.
 - Present management-level summaries through a multi-page dashboard.
 
+## Dashboard Preview
+
+![Enterprise GRC Workbench - Executive Overview](screenshots/Screenshot%202026-10-22%20at%2015.25.08.png)
+
+
 ## Features
 
 ### Executive Overview
